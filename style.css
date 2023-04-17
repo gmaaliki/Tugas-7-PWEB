@@ -7,13 +7,14 @@ header {
 	background-color: #A15C38;
     display: flex;
     flex-wrap: wrap;
-    height: 6em;
+    height: 10em;
 }
 
 header h1 {
     color: #F7F1F0;
     flex: 0 0 100%;
     margin: 0;
+    font-size: 3em;
     text-align: center;
     align-self: center;
 }
@@ -23,7 +24,11 @@ nav {
     color: #F7F1F0;
 	padding: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: left;
+}
+
+nav li {
+    margin: 0 12px 0 12px;
 }
 
 nav ul {
@@ -31,10 +36,6 @@ nav ul {
 	padding: 0;
 	list-style: none;
 	display: flex;
-}
-
-nav li {
-	margin-right: 25px;
 }
 
 nav a {
