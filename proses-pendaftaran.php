@@ -15,9 +15,9 @@ if(isset($_POST['daftar'])){
     $query = mysqli_query($db, $sql);
 
     if( $query ) {
-        header('Location: index.php?status=sukses');
+        header('Location: sukses.php?status=sukses');
     } else {
-        header('Location: index.php?status=gagal');
+        header('Location: sukses.php?status=gagal');
     }
 
 

@@ -13,9 +13,7 @@
 <body>
     <nav>
         <ul>
-          <li><a href="index.php">Halaman Utama</a></li>
-          <li><a href="form-daftar.php">Daftar Baru</a></li>
-          <li><a href="list-siswa.php">Pendaftar</a></li>
+          <li><a href="index.php"><-</a></li>
         </ul>
     </nav>    
     <header>
